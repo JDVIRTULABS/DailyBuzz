@@ -39,10 +39,10 @@ const NewsPage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
           <SEO
-  title={`${post.title} | DailyBuzz`}
-  description={post.excerpt || "Stay updated with the latest news on DailyBuzz."}
-  url={`${window.location.origin}/news/${post.slug}`}
-  image={post.imageUrl}
+  title={`${newsPosts.title} | DailyBuzz`}
+  description={newsPosts.excerpt || "Stay updated with the latest news on DailyBuzz."}
+  url={`${window.location.origin}/news/${newsPosts.slug}`}
+  image={newsPosts.imageUrl}
 />
 
 
