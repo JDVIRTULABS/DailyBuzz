@@ -1,6 +1,8 @@
 # Allow all search engines to crawl the site
 User-agent: *
-Disallow:
+Allow: /
+
+# Disallow admin and login pages
 Disallow: /admin
 Disallow: /login
 
