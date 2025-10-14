@@ -7,4 +7,4 @@ Disallow: /admin
 Disallow: /login
 
 # Sitemap location
-Sitemap: https://daily-buzzz.vercel.app/sitemap.xml
+Sitemap: https://daily-buzzz.vercel.app/sitemap_index.xml
